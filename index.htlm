@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <title> Cocoa & Caiman </title>
+</head>
+<body>
+    <h1> DL Lisense </h1>
+    <section class = "styling-ul">
+        <ul>
+            <li> Cocoa & Caiman's DL  </li>
+        </ul> 
+    </section>
+
+    <p class = "styling-ul"> Driver Lisense </p>
+
+    <div>
+        <ol>
+            <li> Name: </li>
+            <li> DOB: </li>
+            <li> EXP: </li>
+        </ol>  
+    </div>
+    
+    <p> Cat Picture here  <span style = "color: green" > </span> </p>
+    <img src = "CocoaPfp.jpg" width = "200"> 
+
+    <h2> Zewdi loves weightlifting </h2>
+    <p> Shes been weightlifting for almost 3 years. </p>
+    
+</body>
+</html>
