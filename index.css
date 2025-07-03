@@ -1,7 +1,12 @@
 body {
-  background-image: img src ("CatBackground.jpg");
-  background-image: img src("CatBackground.jpg" width = "250");
-  background-color: #cccccc;
+  background-image: ("CatBackground.jpg" width = "3000");
+}
+
+img {
+  border: 3px solid rgb(23, 71, 130);
+  border-radius: 5px;
+  width: 150px;
+  position: relative;
 }
 
 h1 {
@@ -9,13 +14,31 @@ h1 {
   text-align: center;
 }
 
+li {
+  display: inline;
+}
+
 p {
   font-family: verdana;
   font-size: 20px;
+  position: relative;
+  left: 170px;
 }
+
+span {
+  position: relative;
+  left: 50px;
+  color: rgb(0, 0, 0);
+}
+span n1 {
+  position: relative;
+  left: 40px;
+  color: rgb(0, 0, 0);
+}
+
 div {
-  width: 300px;
-  border: 15px solid rgb(23, 71, 130);
-  padding: 50px;
-  margin: 20px;
+  width:800px;
+  border:10px solid rgb(23, 71, 130);
+  padding:20px;
+  margin:5px;
 }
