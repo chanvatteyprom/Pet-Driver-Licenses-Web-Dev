@@ -1,44 +1,44 @@
-body {
-  background-image: ("CatBackground.jpg" width = "3000");
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("CatBackground3.jpeg");
+  width: 700px;
+  border-radius: 20px;
+  height: 499px;
+  margin: 0 auto;
+  border: 3px solid rgb(0, 0, 0);
 }
 
 img {
-  border: 3px solid rgb(23, 71, 130);
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 5px;
   width: 150px;
   position: relative;
+  margin:20px;
 }
 
 h1 {
+  font-family: verdana;
   color: rgb(0, 0, 0);
   text-align: center;
 }
 
-li {
-  display: inline;
-}
-
 p {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
-  left: 170px;
+  left: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 span {
-  position: relative;
-  left: 50px;
-  color: rgb(0, 0, 0);
-}
-span n1 {
-  position: relative;
-  left: 40px;
+  position: static;
   color: rgb(0, 0, 0);
 }
 
-div {
-  width:800px;
-  border:10px solid rgb(23, 71, 130);
-  padding:20px;
-  margin:5px;
+.id {
+  width:680px;
+  margin:20px;
 }
